@@ -3,6 +3,7 @@ source / author,SEMAT,http://ailev.livejournal.com/1059781.html / Anatoly Levenc
 entry type,,
 A,Stakeholders,Стейкхолдеры (заинтересованные стороны)
 ,"The people, groups, or organizations who affect or are affected by a software system.","Люди, группы или организации, кто затрагивает или которые затрагиваются программной системой."
+,,
 S,Recognized,Признаны
 ,Stakeholders have been identified.,Стейкхолдеры были определены.
 ,"All the different groups of stakeholders that are, or will be, affected by the development and operation of the software system are identified.","Все различные группы стейкхолдеров, которые на данный момент, или в будущем будут затронуты разработкой и функционированием программной системой определены."
@@ -56,6 +57,7 @@ S,Satisfied in Use,Удовлетворены в использовании
 ,,
 A,Opportunity,Возможность
 ,The set of circumstances that makes it appropriate to develop or change a software system.,"Набор обстоятельств, который благоприятен для разработки или изменения программной системы."
+,,
 S,Identified,Определена
 ,"A commercial, social or business opportunity has been identified that could be addressed by a software-based solution.","Коммерческая, общественная или инвестиционная возможность, которая могла бы быть адресована программным решением, определена."
 ,"An idea for a way of improving current ways of working, increasing market share or applying a new or innovative software system has been identified.","Идея по способу улучшения текущих технологий работы, увеличения рыночной доли или по применению новой или инновационной программной системы была определена."
@@ -200,7 +202,8 @@ S,Fulfilled,Удовлетворены
 ,,
 A,Software System,Программная система
 ,"A system made up of software, hardware, and data that provides its primary value by the execution of the software.","Система, сделанная из программ, оборудования и данных, которая обеспечивает свою главную пользу путём выполнения программ."
-,Architecture Selected,Архитектура выбрана
+,,
+S,Architecture Selected,Архитектура выбрана
 ,An architecture has been selected that addresses the key technical risks and any applicable organizational constraints.,"Архитектура, которая адресует ключевые технические риски и любые применимые организационные ограничения, выбрана."
 ,The criteria to be used when selecting the architecture have been agreed on.,"Критерии, которые должны быть использованы при выборе архитектуры, согласованы."
 ,,
@@ -274,6 +277,7 @@ S,Retired,Выведена из эксплуатации
 ,,
 A,Team,Команда
 ,"The group of people actively engaged in the development, maintenance, delivery and support of a specific software system.","Группа людей, активно участвующих в разработке, сопровождении, поставке и поддержке какой-то программной системы."
+,,
 S,Seeded,Намечена
 ,The team’s mission is clear and the know-how needed to grow the team is in place.,"Миссия команды ясна и знания о том, как растить команду, наличествуют."
 ,The team mission has been defined in terms of the opportunities and outcomes.,Миссия команды определена в терминах возможностей и результатов.
@@ -300,6 +304,7 @@ S,Seeded,Намечена
 ,,
 S,Formed,Сформирована
 ,The team has been populated with enough committed people to start the mission.,"Команда была пополнена достаточным количеством людей с принятыми обязательствами, чтобы начать миссию."
+,,
 ,Individual responsibilities are understood.,Индивидуальные обязанности понимаются.
 ,,
 ,Enough team members have been recruited to enable the work to progress.,"Было набрано достаточное число членов команды, чтобы работа продвигалась."
@@ -320,8 +325,9 @@ S,Formed,Сформирована
 ,,
 ,Each team member commits to working on the team as defined.,"Каждый член команды принял обязательство работать в команде, как это определено."
 ,,
-,Collaborating,Сотрудничает
+S,Collaborating,Сотрудничает
 ,The team members are working together as one unit.,Члены команды работают вместе как одно подразделение.
+,,
 ,The team is working as one cohesive unit.,Команда работает как одно сплочённое подразделение.
 ,,
 ,Communication within the team is open and honest.,Общение в команде открытое и честное.
@@ -330,7 +336,7 @@ S,Formed,Сформирована
 ,,
 ,The team members know each other.,Члены команды знают друг друга.
 ,,
-,Performing,Производит
+S,Performing,Производит
 ,The team is working effectively and efficiently.,Команда работает результативно и эффективно.
 ,The team consistently meets its commitments.,Команда систематически выполняет обязательства.
 ,,
@@ -342,7 +348,7 @@ S,Formed,Сформирована
 ,,
 ,"Wasted work, and the potential for wasted work are continuously eliminated.",Работа впустую и причины для работы впустую постоянно устраняются.
 ,,
-,Adjourned,Распущена
+S,Adjourned,Распущена
 ,The team is no longer accountable for carrying out its mission.,Команда больше не ответственна за выполнение своей миссии.
 ,The team responsibilities have been handed over or fulfilled.,Обязанности команды были переданы или прекращены.
 ,,
@@ -352,8 +358,10 @@ S,Formed,Сформирована
 ,,
 A,Work,Работа
 ,Activity involving mental or physical effort done in order to achieve a result.,"Дела, включающие умственные или физические усилия для достижения результата."
+,,
 S,Initiated,Инициирована
 ,The work has been requested.,Работа была запрошена.
+,,
 ,The result required of the work being initiated is clear.,"Результат, требуемый от инициированной работы, ясен."
 ,,
 ,Any constraints on the work’s performance are clearly identified.,Любые ограничения на выполнение работы ясно определены.
@@ -370,6 +378,7 @@ S,Initiated,Инициирована
 ,,
 S,Prepared,Подготовлена
 ,All pre-conditions for starting the work have been met.,Все предусловия для начала работы выполнены.
+,,
 ,Commitment is made.,Обязательства приняты.
 ,,
 ,Cost and effort of the work are estimated.,Цена и потребные усилия оценены.
@@ -396,6 +405,7 @@ S,Prepared,Подготовлена
 ,,
 S,Started,Начата
 ,The work is proceeding.,Работа происходит.
+,,
 ,Development work has been started.,Работа по разработке начата.
 ,,
 ,Work progress is monitored.,Прогресс работы отслеживается.
@@ -406,6 +416,7 @@ S,Started,Начата
 ,,
 S,Under Control,Под контролем
 ,"The work is going well, risks are under control, and productivity levels are sufficient to achieve a satisfactory result.","Работа продвигается хорошо, риски под контролем, уровень производительности достаточен для достижения удовлетворительного результата."
+,,
 ,Tasks are being completed.,Количество завершенных задач растёт.
 ,,
 ,Unplanned work is under control.,Незапланированная работа под контролем.
@@ -422,6 +433,7 @@ S,Under Control,Под контролем
 ,,
 S,Concluded,Закончена
 ,The work to produce the results has been concluded.,Работа по производству результатов была закончена.
+,,
 ,All outstanding tasks are administrative housekeeping or related to preparing the next piece of work.,Все невыполненные задачи относятся к административным или подготовке к следующему куску работ.
 ,Work results have been achieved.,Результат работ был достигнут.
 ,The stakeholder(s) has accepted the resulting software system.,Стейкхолдеры приняли результирующую программную систему.
@@ -429,8 +441,9 @@ S,Concluded,Закончена
 ,,
 ,,
 S,Closed,Закрыта
-,All remaining housekeeping tasks have been completed and the work has been officially closed.,"Все остающиеся служебные задачи были завершены и работа была официально закрыта.Полученные уроки были сформулированы, записаны и обсуждены."
-,"Lessons learned have been itemized, recorded and discussed.",
+,All remaining housekeeping tasks have been completed and the work has been officially closed.,Все остающиеся служебные задачи были завершены и работа была официально закрыта.
+,,
+,"Lessons learned have been itemized, recorded and discussed.","Полученные уроки были сформулированы, записаны и обсуждены."
 ,,
 ,Metrics have been made available.,Метрики были сделаны доступными.
 ,,
@@ -446,10 +459,12 @@ S,Closed,Закрыта
 ,,
 ,,
 ,,
-A,Way-of-Working,Технология
+A,Way of Working,Технология
 ,The tailored set of practices and tools used by a team to guide and support their work.,"Адаптированный по месту набор практик и инструментов, используемый командой для ведения и поддержки работы."
+,,
 S,Principles Established,Принципы установлены
 ,"The principles, and constraints, that shape the way-of-working are established.","Принципы и ограничения, которые определяют технологию, установлены."
+,,
 ,Principles and constraints are committed to by the team.,Команда придерживается принципов и ограничений.
 ,,
 ,Principles and constraints are agreed to by the stakeholders.,Принципы и ограничения согласованы стейкхолдерами.
@@ -464,6 +479,7 @@ S,Principles Established,Принципы установлены
 ,,
 S,Foundation Established,Основа положена
 ,"The key practices, and tools, that form the foundation of the way of working are selected and ready for use.","Ключевые практики и инструменты, которые формируют основу технологии, выбраны и готовы к использованию."
+,,
 ,The key practices and tools that form the foundation of the way-of-working are selected.,"Ключевые практики и инструменты, которые формируют основу технологии, выбраны."
 ,,
 ,Enough practices for work to start are agreed to by the team.,"Командой согласовано достаточное число практик, чтобы начать работу."
@@ -477,14 +493,9 @@ S,Foundation Established,Основа положена
 ,The selected practices and tools have been integrated to form a usable way-of-working.,"Выбранные практики и инструменты были интегрированы, чтобы сформировать технологию, которую можно использовать."
 ,,
 ,,
-,,
-,,
-,,
-,,
-,,
-,,
 S,In Use,Используется
 ,"Some members of the team are using, and adapting, the way-of-working.",Некоторые члены команды используют технологию и адаптируют её.
+,,
 ,The practices and tools are being used to do real work.,Практики и инструменты используются для реальной работы.
 ,,
 ,The use of the practices and tools selected are regularly inspected.,Использование выбранных практик и инструментов регулярно проверяется.
@@ -500,6 +511,7 @@ S,In Use,Используется
 ,,
 S,In Place,Наличествует
 ,All team members are using the way of working to accomplish their work.,"Все члены команды используют технологию, чтобы выполнять свою работу."
+,,
 ,The practices and tools are being used by the whole team to perform their work.,Практики и инструменты используются всей командой для выполнения работы.
 ,All team members have access to the practices and tools required to do their work.,"Все члены команды имеют доступ к практиками и инструментам, требующимся для их работы."
 ,The whole team is involved in the inspection and adaptation of the way-of-working.,Вся команда вовлечена в проверку и адаптацию технологии.
@@ -508,6 +520,7 @@ S,In Place,Наличествует
 ,,
 S,Working well,Работает хорошо
 ,The team’s way of working is working well for the team.,Технология для команды работает хорошо.
+,,
 ,Team members are making progress as planned by using and adapting the way-of-working to suit their current context.,"Члены команды продвигаются в работе согласно плану, используя технологию и адаптируя её к их текущему контексту."
 ,,
 ,The team naturally applies the practices without thinking about them,"Команда естественно применяет практики, не задумываясь о них."
@@ -519,6 +532,7 @@ S,Working well,Работает хорошо
 ,,
 S,Retired,Вышла из употребления
 ,The way of working is no longer in use by the team.,Технология больше не используется командой.
+,,
 ,The team's way of working is no longer being used.,Технология команды больше не используется.
 ,,
 ,Lessons learned are shared for future use.,Уроки опубликованы для использования в будущем.
