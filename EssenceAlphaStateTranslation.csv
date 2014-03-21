@@ -1,0 +1,524 @@
+language code,en,ru
+source / author,SEMAT,http://ailev.livejournal.com/1059781.html / Anatoly Levenchuk & Andrey Baida
+entry type,,
+A,Stakeholders,Стейкхолдеры (заинтересованные стороны)
+,"The people, groups, or organizations who affect or are affected by a software system.","Люди, группы или организации, кто затрагивает или которые затрагиваются программной системой."
+S,Recognized,Признаны
+,Stakeholders have been identified.,Стейкхолдеры были определены.
+,"All the different groups of stakeholders that are, or will be, affected by the development and operation of the software system are identified.","Все различные группы стейкхолдеров, которые на данный момент, или в будущем будут затронуты разработкой и функционированием программной системой определены."
+,,
+,"There is agreement on the stakeholder groups to be represented. At a minimum, the stakeholders groups that fund, use, support, and maintain the system have been considered.","Есть соглашение по группам стейкхолдеров, которые будут представлены. Как минимум, должны приниматься в расчёт группы стейкхолдеров, которые финансируют, используют, поддерживают и обслуживают систему."
+,,
+,The responsibilities of the stakeholder representatives have been defined.,Ответственности представителей стейкхолдеров были определены.
+,,
+S,Represented,Представлены
+,The mechanisms for involving the stakeholders are agreed and the stakeholder representatives have been appointed.,Механизмы вовлечения стейкхолдеров согласованы и назначены представители стейкхолдеров.
+,The stakeholder representatives have agreed to take on their responsibilities.,Представители стейкхолдеров согласились выполнять свои обязанности.
+,,
+,The stakeholder representatives are authorized to carry out their responsibilities.,Представители стейкхолдеров уполномочены выполнять свои обязанности.
+,,
+,The collaboration approach among the stakeholder representatives has been agreed.,Подход к обеспечению сотрудничества среди представителей стейкхолдеров был согласован.
+,,
+,The stakeholder representatives support and respect the team's way of working.,Представители стейкхолдеров поддерживают и уважают технологию работы команды.
+,,
+S,Involved,Вовлечены
+,The stakeholder representatives are actively involved in the work and fulfilling their responsibilities.,Представители стейкхолдеров активно вовлечены в работу и выполняют свои обязанности.
+,The stakeholder representatives assist the team in accordance with their responsibilities.,Представители стейкхолдеров помогают команде в соответствии со своими обязанностями.
+,,
+,The stakeholder representatives provide feedback and take part in decision making in a timely manner.,Представители стейкхолдеров обеспечивают обратную связь и принимают участие в принятии решений своевременно.
+,,
+,The stakeholder representatives promptly communicate changes that are relevant for their stakeholder groups.,"Представители стейкхолдеров быстро сообщают изменения, которые имеют значение для их групп стейкхолдеров."
+,,
+,,
+S,In Agreement,В согласии
+,The stakeholder representatives are in agreement.,Представители стейкхолдеров в согласии.
+,The stakeholder representatives have agreed upon their minimal expectations for the next deployment of the new system.,Представители стейкхолдеров согласились с минимальными ожиданиями по следующему разворачиванию новой системы.
+,,
+,The stakeholder representatives are happy with their involvement in the work.,Представители стейкхолдеров удовлетворены своей вовлечённостью в работу.
+,,
+,The stakeholder representatives agree that their input is valued by the team and treated with respect.,"Представители стейкхолдеров согласны, что их вклад в работу ценится командой и учитывается в работе с уважением."
+,,
+,The team members agree that their input is valued by the stakeholder representatives and treated with respect.,"Члены команды согласны, что их вклад в работу ценится представителями стейкхолдеров и учитывается в работе с уважением."
+,,
+,The stakeholder representatives agree with how their different priorities and perspectives are being balanced to provide a clear direction for the team.,"Представители стейкхолдеров согласны с тем, как их различные приоритеты и точки зрения балансируются для обеспечения ясного руководства для команды."
+,,
+S,Satisfied for Deployment,Удовлетворены для разворачивания
+,The minimal expectations of the stakeholder representatives have been achieved.,Минимальные ожидания представителей стейкхолдеров были достигнуты.
+,The stakeholder representatives provide feedback on the system from their stakeholder group perspective.,Представители стейкхолдеров обеспечивают обратную связь с точки зрения их групп стейкхолдеров.
+,,
+,The stakeholder representatives confirm that the system is ready for deployment.,"Представители стейкхолдеров подтверждают, что система готова для разворачивания."
+,,
+S,Satisfied in Use,Удовлетворены в использовании
+,The system has met or exceeds the minimal stakeholder expectations.,Система удовлетворяет или превышает минимальные ожидания стейкхолдеров.
+,Stakeholders are using the new system and providing feedback on their experiences.,Стейкхолдеры используют новую систему и предоставляют обратную связь об их опыте.
+,,
+,The stakeholders confirm that the new system meets their expectations.,"Стейкхолдеры подтверждают, что новая система соответствует их ожиданиям."
+,,
+A,Opportunity,Возможность
+,The set of circumstances that makes it appropriate to develop or change a software system.,"Набор обстоятельств, который благоприятен для разработки или изменения программной системы."
+S,Identified,Определена
+,"A commercial, social or business opportunity has been identified that could be addressed by a software-based solution.","Коммерческая, общественная или инвестиционная возможность, которая могла бы быть адресована программным решением, определена."
+,"An idea for a way of improving current ways of working, increasing market share or applying a new or innovative software system has been identified.","Идея по способу улучшения текущих технологий работы, увеличения рыночной доли или по применению новой или инновационной программной системы была определена."
+,,
+,At least one of the stakeholders wishes to make an investment in better understanding the opportunity and the value associated with addressing it.,"Как минимум один из стейкхолдеров желает сделать инвестицию в более подробное понимание возможности и пользы, связанной с адресацией этой возможности."
+,,
+,The other stakeholders who share the opportunity have been identified.,"Другие стейкхолдеры, для которых это общая возможность, определены."
+,,
+S,Solution Needed,Нужно решение
+,The need for a software-based solution has been confirmed.,Потребность в программном решении была подтверждена.
+,The stakeholders in the opportunity and the proposed solution have been identified.,Стейкхолдеры для возможности и предложенное решение были определены.
+,,
+,The stakeholders' needs that generate the opportunity have been established.,"Потребности стейкхолдеров, которые порождают возможность, были установлены."
+,,
+,Any underlying problems and their root causes have been identified.,Любые связанные с возможностью проблемы и их корневые причины были определены.
+,,
+,It has been confirmed that a software-based solution is needed.,"Было подтверждено, что программное решение нужно."
+,,
+,At least one software-based solution has been proposed.,По меньшей мере одно программное решение было предложено.
+,,
+S,Value Established,Польза установлена
+,The value of a successful solution has been established.,Польза успешного решения была установлена.
+,The value of addressing the opportunity has been quantified either in absolute terms or in returns or savings per time period (e.g. per annum).,"Польза адресации возможности была определена количественно либо в абсолютных значениях, либо в единицах дохода или экономии за период (например, за год)."
+,,
+,The impact of the solution on the stakeholders is understood.,Влияние решения на стейкхолдеров понятно.
+,,
+,The value that the software system offers to the stakeholders that fund and use the software system is understood.,"Польза, которую программная система предлагает стейкхолдерам, которые финансируют и используют систему, понятна."
+,,
+,The success criteria by which the deployment of the software system is to be judged are clear.,"Критерии успеха, по которым будет приниматься решение о разворачивании системы, ясны."
+,,
+,The desired outcomes required of the solution are clear and quantified.,"Желаемые результаты, требуемые от решения, ясны и определены количественно."
+,,
+S,Viable ,Жизнеспособна
+,It is agreed that a solution can be produced quickly and cheaply enough to successfully address the opportunity.,"Согласовано, что решение может быть произведено достаточно быстро и дёшево, чтобы успешно адресовать возможность."
+,A solution has been outlined.,Решение обрисовано в общих чертах.
+,,
+,The indications are that the solution can be developed and deployed within constraints.,"Есть признаки, что решение может быть разработано и развёрнуто в текущих ограничениях."
+,,
+,The risks associated with the solution are acceptable and manageable.,"Риски, связанные с решением, приемлемы и управляемы."
+,,
+,The indicative (ball-park) costs of the solution are less than the anticipated value of the opportunity.,"Грубая оценка цены решения меньше, чем ожидаемая польза от реализации возможности."
+,,
+,The reasons for the development of a software-based solution are understood by all members of the team.,Причины для разработки программного решения понимаются всеми членами команды.
+,,
+,It is clear that the pursuit of the opportunity is viable.,"Ясно, что реализация возможности жизнеспособна."
+,,
+S,Addressed ,Адресована
+,A solution has been produced that demonstrably addresses the opportunity.,"Решение, которое произведено, демонстрирует адресацию возможности."
+,A usable system that demonstrably addresses the opportunity is available.,"Готовая к использованию система, которая демонстрирует реализацию возможности, доступна."
+,,
+,The stakeholders agree that the available solution is worth deploying.,"Стейкхолдеры согласны, что доступное решение заслуживает разворачивания."
+,,
+,The stakeholders are satisfied that the solution produced addresses the opportunity.,"Стейкхолдеры удовлетворены тем, как разработанное решение адресует возможность."
+,,
+S,Benefit Accrued,Извлекается выгода
+,The operational use or sale of the solution is creating tangible benefits.,Эксплуатация или продажа решения создаёт осзязаемые выгоды.
+,The solution has started to accrue benefits for the stakeholders.,Решение начало извлекать выгоды для стейкхолдеров.
+,,
+,The return-on-investment profile is at least as good as anticipated.,"Профиль возврата инвестиций по меньшей мере так хорош, как ожидалось."
+,,
+A,Requirements,Требования
+,What the software system must do to address the opportunity and satisfy the stakeholders.,"Что программная система должна делать, чтобы адресовать возможность и удовлетворить стейкхолдеров."
+S,Conceived,Замыслены
+,The need for a new system has been agreed.,Согласована потребность в новой системе.
+,The initial set of stakeholders agrees that a system is to be produced.,"Начальное множество стейкхолдеров согласно, что система должна быть произведена."
+,,
+,The stakeholders that will use the new system are identified.,"Стейкхолдеры, которые будут использовать новую систему, определены."
+,,
+,The stakeholders that will fund the initial work on the new system are identified.,"Стейкхолдеры, которые профинансируют начальную работу по созданию новой системы, определены."
+,,
+,There is a clear opportunity for the new system to address.,"Есть ясная возможность, которую будет адресовывать новая система."
+,,
+S,Bounded,Ограничены
+,The purpose and theme of the new system are clear.,Назначение и тема новой системы ясны.
+,The stakeholders involved in developing the new system are identified.,"Стейкхолдеры, вовлечённые в разработку новой системы определены."
+,,
+,The stakeholders agree on the purpose of the new system.,Стейкхолдеры согласны с назначением новой системы.
+,,
+,It is clear what success is for the new system.,"Ясно, что будет считаться успехом для новой системы."
+,,
+,The stakeholders have a shared understanding of the extent of the proposed solution.,Стейкхолдеры имеют одинаковое понимание пределов предлагаемого решения.
+,,
+,The way the requirements will be described is agreed upon.,Технология описания требований согласована.
+,,
+,The mechanisms for managing the requirements are in place.,Механизмы управления требованиями наличествуют.
+,,
+,The prioritization scheme is clear.,Приоретизационная схема ясна.
+,,
+,Constraints are identified and considered.,Ограничения определены и приняты во внимание.
+,,
+,Assumptions are clearly stated.,Допущения ясно сформулированы.
+,,
+S,Coherent,Непротиворечивы
+,The requirements provide a consistent description of the essential characteristics of the new system.,Требования обеспечивают непротиворечивое описание существенных характеристик новой системы.
+,The requirements are captured and shared with the team and the stakeholders.,Требования документированы и доступны команде и стейкхолдерам.
+,,
+,The origin of the requirements is clear.,Происхождение требований ясно.
+,,
+,The rationale behind the requirements is clear.,Обоснование требований ясно.
+,,
+,Conflicting requirements are identified and attended to.,Противоречивые требования идентифицированы и ими занимаются.
+,,
+,The requirements communicate the essential characteristics of the system to be delivered.,Требования сообщают существенные характеристики поставляемой системы.
+,,
+,The most important usage scenarios for the system can be explained.,Наиболее важные сценарии использования системы могут быть объяснены.
+,,
+,The priority of the requirements is clear.,Приоритетность требований ясна.
+,,
+,The impact of implementing the requirements is understood.,Влияние реализации требований понимается.
+,,
+,The team understands what has to be delivered and agrees to deliver it.,"Команда понимает, что должно быть обеспечено и соглашается обеспечить это."
+,,
+S,Acceptable,Приемлемы
+,The requirements describe a system that is acceptable to the stakeholders.,"Требования описывают систему, которая будет приемлема для стейкхолдеров."
+,The stakeholders accept that the requirements describe an acceptable solution.,"Стейкхолдеры принимают, что требования описывают приемлемое решение."
+,,
+,The rate of change to the agreed requirements is relatively low and under control.,Скорость изменений к согласованным требованиям относительно низка и под контролем.
+,,
+,The value provided by implementing the requirements is clear.,"Польза, обеспечиваемая реализацией требований, ясна."
+,,
+,The parts of the opportunity satisfied by the requirements are clear.,"Части возможности, удовлетворяемые требованиями, ясны."
+,,
+,The requirements are testable.,Требования тестируемы.
+,,
+S,Addressed,Адресованы
+,Enough of the requirements have been addressed to satisfy the need for a new system in a way that is acceptable to the stakeholders.,"Достаточное количество требований было адресовано, чтобы удовлетворить потребность в новой системе способом, приемлемым для стейкхолдеров."
+,Enough of the requirements are addressed for the resulting system to be acceptable to the stakeholders.,"Достаточное количество требований адресовано, чтобы результирующая система была приемлема для стейкхолдеров."
+,,
+,The stakeholders accept the requirements as accurately reflecting what the system does and does not do.,"Стейкхолдеры принимают, что требования аккуратно отражают, что система должна и не должна делать."
+,,
+,The set of requirement items implemented provide clear value to the stakeholders.,Набор реализованных единиц требований обеспечивает ясную пользу для стейкхолдеров.
+,,
+,The system implementing the requirements is accepted by the stakeholders as worth making operational.,"Система, реализующая требования, принимается стейкхолдерами, как заслуживающая эксплуатации."
+,,
+S,Fulfilled,Удовлетворены
+,The requirements that have been addressed fully satisfy the need for a new system.,"Требования, которые были адресованы, полностью удовлетворяют потребность в новой системе."
+,The stakeholders accept the requirements as accurately capturing what they require to fully satisfy the need for a new system.,"Стейкхолдеры принимают требования, как аккуратно документирующие, что стейкхолдеры требуют для полного удовлетворения потребности в новой системе."
+,,
+,There are no outstanding requirement items preventing the system from being accepted as fully satisfying the requirements.,"Нет никаких невыполненных единиц требований, которые не дают принять систему как полностью удовлетворяющую требованиям."
+,,
+,The system is accepted by the stakeholders as fully satisfying the requirements.,"Система, принята стейкхолдерами как полностью удовлетворяющая требованиям."
+,,
+A,Software System,Программная система
+,"A system made up of software, hardware, and data that provides its primary value by the execution of the software.","Система, сделанная из программ, оборудования и данных, которая обеспечивает свою главную пользу путём выполнения программ."
+,Architecture Selected,Архитектура выбрана
+,An architecture has been selected that addresses the key technical risks and any applicable organizational constraints.,"Архитектура, которая адресует ключевые технические риски и любые применимые организационные ограничения, выбрана."
+,The criteria to be used when selecting the architecture have been agreed on.,"Критерии, которые должны быть использованы при выборе архитектуры, согласованы."
+,,
+,Hardware platforms have been identified.,Аппаратная платформа определена.
+,,
+,Programming languages and technologies to be used have been selected.,Языки программирования и используемые технологии выбраны.
+,,
+,System boundary is known.,Границы системы известны.
+,,
+,Significant decisions about the organization of the system have been made.,Значимые решения об организации системы приняты.
+,,
+,"Buy, build and reuse decisions have been made.","Решения о том, что покупать, что создавать, а что переиспользовать, приняты."
+,,
+S,Demonstrable,Демонстрируемая
+,An executable version of the system is available that demonstrates the architecture is fit for purpose and supports testing.,"Исполняемая версия системы, которая демонстрирует, что архитектура пригодна для использования, доступна и поддерживает тестирование."
+,Key architectural characteristics have been demonstrated.,Ключевые архитектурные характеристики были продемонстрированы.
+,,
+,The system can be exercised and its performance can be measured.,Система может быть опробована и её ключевые характеристики могут быть измерены.
+,,
+,Critical hardware configurations have been demonstrated.,Критические конфигурации оборудования были продемонстрированы.
+,,
+,Critical interfaces have been demonstrated.,Критические интерфейсы были продемонстрированы.
+,,
+,The integration with other existing systems has been demonstrated.,Интеграция с другими существующими системами была продемонстрирована.
+,,
+,The relevant stakeholders agree that the demonstrated architecture is appropriate.,"Необходимые стейкхолдеры согласны, что демонстрируемая архитектура подходит."
+,,
+S,Usable,Подходит для использования
+,The system is usable and demonstrates all of the quality characteristics of an operational system.,Система подходит для использования и демонстрирует все качественные характеристики эксплуатируемой системы.
+,The system can be operated by stakeholders who use it.,Система может эксплуатироваться использующими её стейкхолдерами.
+,,
+,The functionality provided by the system has been tested.,"Функциональность, обеспечиваемая системой, протестирована."
+,,
+,The performance of the system is acceptable to the stakeholders.,Результат работы системы приемлем для стейкхолдеров.
+,,
+,Defect levels are acceptable to the stakeholders.,Уровни дефектов приемлемы для стейкхолдеров.
+,,
+,The system is fully documented.,Система полностью документирована.
+,,
+,Release content is known.,Содержание релиза известно.
+,,
+,The added value provided by the system is clear.,"Добавляемая польза, обеспечиваемая системой, ясна."
+,,
+S,Ready,Готова
+,The system (as a whole) has been accepted for deployment in a live environment.,Система (как целое) была принята для разворачивания в её эксплуатационном окружении.
+,Installation and other user documentation are available.,Установочная и другая пользовательская документация доступна.
+,,
+,The stakeholder representatives accept the system as fit-for-purpose.,Представители стейкхолдеров принимают систему как удовлетворяющую своему назначению.
+,,
+,The stakeholder representatives want to make the system operational.,Представители стейкхолдеров хотят принять систему в эксплуатацию.
+,,
+,Operational support is in place.,Эксплуатационная поддержка наличествует.
+,,
+S,Operational,Эксплуатируется
+,The system is in use in a live environment.,Система используется в её эксплуатационном окружении.
+,The system has been made available to the stakeholders intended to use it.,"Система сделана доступной стейкхолдерам, которые намерены её использовать."
+,,
+,At least one example of the system is fully operational.,Есть как минимум один пример полностью работающей системы.
+,,
+,The system is fully supported to the agreed service levels.,Система полностью поддерживается на согласованном уровне сервиса.
+,,
+S,Retired,Выведена из эксплуатации
+,The system is no longer supported.,Система больше не поддерживается.
+,The system has been replaced or discontinued.,Система была заменена или прекращена в использовании.
+,,
+,The system is no longer supported.,Система больше не поддерживается.
+,,
+,There are no “official” stakeholders who still use the system.,"Нет «официальных» стейкхолдеров, которые до сих пор используют систему."
+,,
+,Updates to the system will no longer be produced.,Апдейты к системе больше не будут производиться.
+,,
+A,Team,Команда
+,"The group of people actively engaged in the development, maintenance, delivery and support of a specific software system.","Группа людей, активно участвующих в разработке, сопровождении, поставке и поддержке какой-то программной системы."
+S,Seeded,Намечена
+,The team’s mission is clear and the know-how needed to grow the team is in place.,"Миссия команды ясна и знания о том, как растить команду, наличествуют."
+,The team mission has been defined in terms of the opportunities and outcomes.,Миссия команды определена в терминах возможностей и результатов.
+,,
+,Constraints on the team’s operation are known.,Ограничения на работу команды известны.
+,,
+,Mechanisms to grow the team are in place.,Механизмы для роста команды наличествуют.
+,,
+,The composition of the team is defined.,Состав команды определён.
+,,
+,Any constraints on where and how the work is carried out are defined.,"Все ограничения, определяющие где и как будет выполняться работа, определены."
+,,
+,The team’s responsibilities are outlined.,Обязанности команды обрисованы в общих чертах.
+,,
+,The level of team commitment is clear.,Уровень принятых командой обязательств ясен.
+,,
+,Required competencies are identified.,Требуемые компетенции определены.
+,,
+,The team size is determined.,Размер команды определён.
+,,
+,Governance rules are defined.,Правила контроля за деятельностью определены.
+,,
+,Leadership model is selected.,Форма управления выбрана.
+,,
+S,Formed,Сформирована
+,The team has been populated with enough committed people to start the mission.,"Команда была пополнена достаточным количеством людей с принятыми обязательствами, чтобы начать миссию."
+,Individual responsibilities are understood.,Индивидуальные обязанности понимаются.
+,,
+,Enough team members have been recruited to enable the work to progress.,"Было набрано достаточное число членов команды, чтобы работа продвигалась."
+,,
+,Every team member understands how the team is organized and what their individual role is.,"Каждый член команды понимает, как команда организована, и какая у него индивидуальная роль."
+,,
+,All team members understand how to perform their work.,"Все члены команды понимаю, как выполнять их работу."
+,,
+,The team members have met (perhaps virtually) and are beginning to get to know each other,"Все члены команды встретились (возможно, виртуально) и начинают узнавать друг друга."
+,,
+,The team members understand their responsibilities and how they align with their competencies.,Члены команды понимают их обязанности и как они увязаны с их компетенциями.
+,,
+,Team members are accepting work.,Члены команды принимают работу.
+,,
+,"Any external collaborators (organizations, teams and individuals) are identified.","Любые внешние смежники (организации, команды и индивиды) определены."
+,,
+,Team communication mechanisms have been defined.,Механизмы общения в команде определены.
+,,
+,Each team member commits to working on the team as defined.,"Каждый член команды принял обязательство работать в команде, как это определено."
+,,
+,Collaborating,Сотрудничает
+,The team members are working together as one unit.,Члены команды работают вместе как одно подразделение.
+,The team is working as one cohesive unit.,Команда работает как одно сплочённое подразделение.
+,,
+,Communication within the team is open and honest.,Общение в команде открытое и честное.
+,,
+,The team is focused on achieving the team mission.,Команда сфокусирована на достижение миссии команды.
+,,
+,The team members know each other.,Члены команды знают друг друга.
+,,
+,Performing,Производит
+,The team is working effectively and efficiently.,Команда работает результативно и эффективно.
+,The team consistently meets its commitments.,Команда систематически выполняет обязательства.
+,,
+,The team continuously adapts to the changing context.,Команда непрерывно адаптируется к изменяющемуся контексту.
+,,
+,The team identifies and addresses problems without outside help.,Команда определяет и адресует проблемы без внешней помощи.
+,,
+,Effective progress is being achieved with minimal avoidable backtracking and reworking.,Прогресс в результатах достигается с минимальным необходимым возвращением к сделанному и переделками.
+,,
+,"Wasted work, and the potential for wasted work are continuously eliminated.",Работа впустую и причины для работы впустую постоянно устраняются.
+,,
+,Adjourned,Распущена
+,The team is no longer accountable for carrying out its mission.,Команда больше не ответственна за выполнение своей миссии.
+,The team responsibilities have been handed over or fulfilled.,Обязанности команды были переданы или прекращены.
+,,
+,The team members are available for assignment to other teams.,Члены команды доступны для назначения в другие команды.
+,,
+,No further effort is being put in by the team to complete the mission.,Командой не предпринимается дальше никаких усилий для завершения миссии.
+,,
+A,Work,Работа
+,Activity involving mental or physical effort done in order to achieve a result.,"Дела, включающие умственные или физические усилия для достижения результата."
+S,Initiated,Инициирована
+,The work has been requested.,Работа была запрошена.
+,The result required of the work being initiated is clear.,"Результат, требуемый от инициированной работы, ясен."
+,,
+,Any constraints on the work’s performance are clearly identified.,Любые ограничения на выполнение работы ясно определены.
+,,
+,The stakeholders that will fund the work are known.,"Стейкхолдеры, которые будут финансировать работу, известны."
+,,
+,The initiator of the work is clearly identified.,Инициатор работ известен.
+,,
+,The stakeholders that will accept the results are known.,"Стейкхолдеры, которые будут принимать работу, известны."
+,,
+,The source of funding is clear.,Источник финансирования ясен.
+,,
+,The priority of the work is clear.,Приоритет работы ясен.
+,,
+S,Prepared,Подготовлена
+,All pre-conditions for starting the work have been met.,Все предусловия для начала работы выполнены.
+,Commitment is made.,Обязательства приняты.
+,,
+,Cost and effort of the work are estimated.,Цена и потребные усилия оценены.
+,,
+,Resource availability is understood.,Доступность ресурсов понимается.
+,,
+,Governance policies and procedures are clear.,Правила и процедуры контроля ясны.
+,,
+,Risk exposure is understood.,Риски понимаются.
+,,
+,Acceptance criteria are defined and agreed with client.,Критерии приёмки определены и согласованы с клиентом.
+,,
+,The work is broken down sufficiently for productive work to start.,"Работы разбиты достаточно для того, чтобы началась производительная работа."
+,,
+,Tasks have been identified and prioritized by the team and stakeholders.,Стейкхолдерами и командой задачи определены и приоретизированы.
+,,
+,A credible plan is in place.,Правдоподобный план наличествует.
+,,
+,Funding to start the work is in place.,Финансирование для начала работы наличествует.
+,,
+,The team or at least some of the team members are ready to start the work.,"Команда или, как минимум, часть команды готова начать работу."
+,,
+,Integration and delivery points are defined.,Моменты интеграции и поставки определены.
+,,
+S,Started,Начата
+,The work is proceeding.,Работа происходит.
+,Development work has been started.,Работа по разработке начата.
+,,
+,Work progress is monitored.,Прогресс работы отслеживается.
+,,
+,The work is being broken down into actionable work items with clear definitions of done.,"Работа разбита на единицы действий с ясными определениями того, что нужно сделать."
+,,
+,Team members are accepting and progressing tasks.,Члены команды принимают и выполняют задания.
+,,
+S,Under Control,Под контролем
+,"The work is going well, risks are under control, and productivity levels are sufficient to achieve a satisfactory result.","Работа продвигается хорошо, риски под контролем, уровень производительности достаточен для достижения удовлетворительного результата."
+,Tasks are being completed.,Количество завершенных задач растёт.
+,,
+,Unplanned work is under control.,Незапланированная работа под контролем.
+,,
+,Risks are under control as the impact if they occur and the likelihood of them occurring have been reduced to acceptable levels.,"Риски под контролем, их влияние, если они реализуются, и вероятность их реализации снижены до приемлемых уровней."
+,,
+,Estimates are revised to reflect the team’s performance.,"Оценки пересматриваются, чтобы отражать производительность команды."
+,,
+,Measures are available to show progress and velocity.,Доступны меры для показа продвижения и скорости работы.
+,,
+,Re-work is under control.,Переделки под контролем.
+,,
+,Tasks are consistently completed on time and within their estimates.,Задачи успешно завершаются вовремя и в соответствии с их оценками.
+,,
+S,Concluded,Закончена
+,The work to produce the results has been concluded.,Работа по производству результатов была закончена.
+,All outstanding tasks are administrative housekeeping or related to preparing the next piece of work.,Все невыполненные задачи относятся к административным или подготовке к следующему куску работ.
+,Work results have been achieved.,Результат работ был достигнут.
+,The stakeholder(s) has accepted the resulting software system.,Стейкхолдеры приняли результирующую программную систему.
+,,
+,,
+,,
+S,Closed,Закрыта
+,All remaining housekeeping tasks have been completed and the work has been officially closed.,"Все остающиеся служебные задачи были завершены и работа была официально закрыта.Полученные уроки были сформулированы, записаны и обсуждены."
+,"Lessons learned have been itemized, recorded and discussed.",
+,,
+,Metrics have been made available.,Метрики были сделаны доступными.
+,,
+,Everything has been archived.,Всё было архивировано.
+,,
+,The budget has been reconciled and closed.,Бюджет был сверен и закрыт.
+,,
+,The team has been released.,Команда была освобождена.
+,,
+,"There are no outstanding, uncompleted tasks.","Нет незавершённых, недоделанных задач."
+,,
+,,
+,,
+,,
+,,
+A,Way-of-Working,Технология
+,The tailored set of practices and tools used by a team to guide and support their work.,"Адаптированный по месту набор практик и инструментов, используемый командой для ведения и поддержки работы."
+S,Principles Established,Принципы установлены
+,"The principles, and constraints, that shape the way-of-working are established.","Принципы и ограничения, которые определяют технологию, установлены."
+,Principles and constraints are committed to by the team.,Команда придерживается принципов и ограничений.
+,,
+,Principles and constraints are agreed to by the stakeholders.,Принципы и ограничения согласованы стейкхолдерами.
+,,
+,The tool needs of the work and its stakeholders are agreed.,Потребные для работы инструменты и их стейкхолдеры согласованы.
+,,
+,A recommendation for the approach to be taken is available.,Рекомендации по избранному подходу доступны.
+,,
+,The context within which the team will operate is understood.,"Контекст, в котором будет работать команда, понятен."
+,,
+,"The constraints that apply to the selection, acquisition and use of practices and tools are known.","Ограничения, которые применимы к выбору, приобретению и использованию практик и инструментов, известны."
+,,
+S,Foundation Established,Основа положена
+,"The key practices, and tools, that form the foundation of the way of working are selected and ready for use.","Ключевые практики и инструменты, которые формируют основу технологии, выбраны и готовы к использованию."
+,The key practices and tools that form the foundation of the way-of-working are selected.,"Ключевые практики и инструменты, которые формируют основу технологии, выбраны."
+,,
+,Enough practices for work to start are agreed to by the team.,"Командой согласовано достаточное число практик, чтобы начать работу."
+,,
+,All non-negotiable practices and tools have been identified.,Все не подлежащие обсуждению практики и инструменты были определены.
+,,
+,The gaps that exist between the practices and tools that are needed and the practices and tools that are available have been analyzed and understood.,"Неувязки, которые есть между доступными практиками и инструментами, и необходимыми практиками и инструментами, проанализированы и поняты."
+,,
+,The capability gaps that exist between what is needed to execute the desired way of working and the capability levels of the team have been analyzed and understood.,"Неувязки между тем, что нужно для выполнения желаемой технологии и уровнем возможностей команды, проанализированы и поняты."
+,,
+,The selected practices and tools have been integrated to form a usable way-of-working.,"Выбранные практики и инструменты были интегрированы, чтобы сформировать технологию, которую можно использовать."
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+S,In Use,Используется
+,"Some members of the team are using, and adapting, the way-of-working.",Некоторые члены команды используют технологию и адаптируют её.
+,The practices and tools are being used to do real work.,Практики и инструменты используются для реальной работы.
+,,
+,The use of the practices and tools selected are regularly inspected.,Использование выбранных практик и инструментов регулярно проверяется.
+,,
+,The practices and tools are being adapted to the team’s context.,Практики и инструменты адаптированы к контексту команды.
+,,
+,The use of the practices and tools is supported by the team.,Использование практик и инструментов командой поддерживается.
+,,
+,Procedures are in place to handle feedback on the team’s way of working.,Процедуры для учёта обратной связи по поводу технологии работы команды – наличествуют.
+,,
+,The practices and tools support team communication and collaboration.,Практики и инструменты поддерживают общение команды и сотрудничество.
+,,
+,,
+S,In Place,Наличествует
+,All team members are using the way of working to accomplish their work.,"Все члены команды используют технологию, чтобы выполнять свою работу."
+,The practices and tools are being used by the whole team to perform their work.,Практики и инструменты используются всей командой для выполнения работы.
+,All team members have access to the practices and tools required to do their work.,"Все члены команды имеют доступ к практиками и инструментам, требующимся для их работы."
+,The whole team is involved in the inspection and adaptation of the way-of-working.,Вся команда вовлечена в проверку и адаптацию технологии.
+,,
+,,
+,,
+S,Working well,Работает хорошо
+,The team’s way of working is working well for the team.,Технология для команды работает хорошо.
+,Team members are making progress as planned by using and adapting the way-of-working to suit their current context.,"Члены команды продвигаются в работе согласно плану, используя технологию и адаптируя её к их текущему контексту."
+,,
+,The team naturally applies the practices without thinking about them,"Команда естественно применяет практики, не задумываясь о них."
+,,
+,The tools naturally support the way that the team works.,Инструменты естественно поддерживают способ работы команды.
+,,
+,The team continually tunes their use of the practices and tools.,Команда постоянно подстраивает своё использование практик и инструментов.
+,,
+,,
+S,Retired,Вышла из употребления
+,The way of working is no longer in use by the team.,Технология больше не используется командой.
+,The team's way of working is no longer being used.,Технология команды больше не используется.
+,,
+,Lessons learned are shared for future use.,Уроки опубликованы для использования в будущем.
