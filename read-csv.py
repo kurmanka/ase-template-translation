@@ -27,11 +27,14 @@ class Translations:
 		self.languages = languages;
 		self.check_count = 0
 		self.maps = {}
+		self.alpha = None
+		self.state = None
 		for l in languages: 
-			self.maps[l] = {}
+			self.maps[l] = {"method-name":"Essence Kernel"}
 
-	def alpha(self,row):
+	def add_alpha(self,row):
 		print "\n--- Alpha: %s / %s ---" % (row[1],row[2])
+		self.alpha = row[1].strip()
 		name = row[1] + '-name'
 		description = row[1] + '-description'
 		i = 0
@@ -45,14 +48,36 @@ class Translations:
 			self.maps[l][description] = row[1+i]
 			i += 1
 	
-	def state(self,row):
+	def add_state(self,row):
 		print "State: %s" % row[1]
+		self.state = row[1].strip()
+		name = "%s-%s-name" % (self.alpha, self.state)
+		description = "%s-%s-description" % (self.alpha, self.state)
 		self.check_count = 1
 		
+		i = 0
+		for l in languages:
+			self.maps[l][name] = row[1+i]
+			i += 1
+				
+		row = self.input.next()
+		i = 0
+		for l in languages:
+			self.maps[l][description] = row[1+i]
+			i += 1
+		
 	
-	def check_item(self,row):
-		print "%d: %s" % (self.check_count, row[1])
+	def add_check_item(self,row):
+		#print "%d: %s" % (self.check_count, row[1])
 		self.check_count += 1
+
+		description = "%s-%s-check%d-description" % (self.alpha, self.state, self.check_count)
+
+		i = 0
+		for l in languages:
+			self.maps[l][description] = row[1+i]
+			i += 1
+
 	
 	def output(self):
 		for l in t.languages:
@@ -82,13 +107,13 @@ with open(filename, 'rb') as CSV:
 	# further rows
 	for row in input:
 		if row[0] == 'A':
-			t.alpha( row )
+			t.add_alpha( row )
 		elif row[0] == 'S':
-			t.state(row) 
+			t.add_state(row) 
 		elif row[0] == '' and row[1] and row[1].count(' ') == 0:
-			t.state(row)
+			t.add_state(row)
 		elif row[1]:
-			t.check_item(row) 
+			t.add_check_item(row) 
 		#if row[0] or row[1]:
 		#	print ', '.join(row)
 
