@@ -69,14 +69,14 @@ class Translations:
 	
 	def add_check_item(self,row):
 		#print "%d: %s" % (self.check_count, row[1])
-		self.check_count += 1
-
 		description = "%s-%s-check%d-description" % (self.alpha, self.state, self.check_count)
 
 		i = 0
 		for l in languages:
 			self.maps[l][description] = row[1+i]
 			i += 1
+
+		self.check_count += 1
 
 	
 	def output(self):
