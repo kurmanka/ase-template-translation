@@ -1,50 +1,98 @@
 #!/usr/bin/python
 
-import pprint
 import csv
+import pprint
+import plistlib
+
+pp = pprint.PrettyPrinter(indent=4)
 
 filename = 'EssenceAlphaStateTranslation.csv'
 
-languages = ();
 
-def alpha(row):
-	global translation
-	print "\n--- Alpha: %s / %s ---" % (row[1],row[2])
-	row = translation.next()
-	no = 0
-	for l in languages:
-		no = no+1
-		print '%s: %s' % (l, row[no])
+# a wrapper around csv.reader
+# from http://docs.python.org/2/library/csv.html#csv-examples
+
+def unicode_csv_reader(csv_data, dialect=csv.excel, **kwargs):
+    # csv.py doesn't do Unicode; encode temporarily as UTF-8:
+    csv_reader = csv.reader(csv_data,
+                            dialect=dialect, **kwargs)
+    for row in csv_reader:
+        # decode UTF-8 back to Unicode, cell by cell:
+        yield [cell.decode('utf-8') for cell in row]
 
 
-def state(row):
-	global translation
-	print "State: %s" % row[1]
+class Translations:
+	def __init__(self,input,languages):
+		self.input = input
+		self.languages = languages;
+		self.check_count = 0
+		self.maps = {}
+		for l in languages: 
+			self.maps[l] = {}
+
+	def alpha(self,row):
+		print "\n--- Alpha: %s / %s ---" % (row[1],row[2])
+		name = row[1] + '-name'
+		description = row[1] + '-description'
+		i = 0
+		for l in languages:
+			self.maps[l][name] = row[1+i]
+			i += 1
+				
+		row = self.input.next()
+		i = 0
+		for l in languages:
+			self.maps[l][description] = row[1+i]
+			i += 1
 	
+	def state(self,row):
+		print "State: %s" % row[1]
+		self.check_count = 1
+		
+	
+	def check_item(self,row):
+		print "%d: %s" % (self.check_count, row[1])
+		self.check_count += 1
+	
+	def output(self):
+		for l in t.languages:
+			plistlib.writePlist(self.maps[l], "out/%s.xml" % l)
+
+	
+
+
+t = None
 
 with open(filename, 'rb') as CSV:
-	translation = csv.reader( CSV )
+	input = unicode_csv_reader( CSV )
 	
 	# row 1
-	languages = translation.next()
+	languages = input.next()
 	lang_count = len(languages)
 	languages = languages[1:lang_count]
-	pp = pprint.PrettyPrinter(indent=4).pprint( languages )
+	t = Translations(input,languages)
+	
+	pp.pprint( languages )
 	
 	# row 2
-	sources = translation.next() 
+	sources = input.next()
 	# row 3
-	translation.next()
+	input.next()
 	
 	# further rows
-	for row in translation:
+	for row in input:
 		if row[0] == 'A':
-			alpha( row )
-		if row[0] == 'S':
-			state(row) 
-		if row[0] == '' and row[1] and row[1].count(' ') == 0:
-			state(row)
+			t.alpha( row )
+		elif row[0] == 'S':
+			t.state(row) 
+		elif row[0] == '' and row[1] and row[1].count(' ') == 0:
+			t.state(row)
+		elif row[1]:
+			t.check_item(row) 
 		#if row[0] or row[1]:
 		#	print ', '.join(row)
-			
 
+
+t.output()
+
+#pp.pprint( t.maps['ru'] )
