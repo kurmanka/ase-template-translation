@@ -94,7 +94,8 @@ class Translations:
 	
 	def output(self,dir):
 		for l in t.languages:
-			plistlib.writePlist(self.maps[l], "%s/locale/%s.xml" % (dir,l) )
+			if not l == 'en':
+				plistlib.writePlist(self.maps[l], "%s/locale/%s.xml" % (dir,l) )
 
 
 

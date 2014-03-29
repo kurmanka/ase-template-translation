@@ -29,7 +29,7 @@ Usage:
   $ python build-translation.py Path/To/Template Path/To/Translation.CSV Output/Path
 
 Output/Path directory must not exist. It will be created, by copying the source 
-template there first, then creating needed xml files in the locale/ dir inside.
+template there first, then creating needed xml file(s) in the locale/ dir inside.
 
 
 
