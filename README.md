@@ -17,16 +17,17 @@ Directory structure
           - locale/
           - resources/
           - stateboard.json
+ - EssenceAlphaStateTranslation.csv — a translation CSV template, with a Russian translation inside of it
+ - build-translation.py — a script to produce a translated template
 
 
 build-translation.py
 ====================
 
-
 Usage:
 
   $ python build-translation.py Path/To/Template Path/To/Translation.CSV Output/Path
-  
+
 Output/Path directory must not exist. It will be created, by copying the source 
 template there first, then creating needed xml files in the locale/ dir inside.
 
