@@ -13,36 +13,41 @@ Directory structure
 
  - src/
     - Template/
-       - Essential lifecycle/ —— a State Board template from the App
+       - Essential lifecycle/ — an original State Board template from the App
           - locale/
           - resources/
           - stateboard.json
 
 
-build-translation.py (not working yet)
+build-translation.py
 ====================
 
 
 Usage:
 
-  $ python build-translation.py Path/To/Template Path/To/Translation.CSV Output/Path/
-
+  $ python build-translation.py Path/To/Template Path/To/Translation.CSV Output/Path
+  
+Output/Path directory must not exist. It will be created, by copying the source 
+template there first, then creating needed xml files in the locale/ dir inside.
 
 
 
 build-template.py (not working yet)
 =================
 
+Builds an .aset file from a translated template dir.
+
 Usage:
 
   $ python build-template.py Path/To/Translation
   
+  
 
 
-How to install a (new) template?
+How to install a (new) template into the app?
 ================================
 
-Use iTunes to upload an something.aset file into the StateExplorer. Then 
+Use iTunes to upload a Something.aset file into the StateExplorer. Then 
 restart the App. (You may have to force it by first closing the app.) 
 It should recognize and install the template upon next launch.
 

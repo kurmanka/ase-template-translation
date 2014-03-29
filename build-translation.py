@@ -3,10 +3,22 @@
 import csv
 import pprint
 import plistlib
+import argparse
+import shutil
+
+
+parser = argparse.ArgumentParser(description='Build translated Alpha State Explorer template.')
+parser.add_argument('srcTemplate')
+parser.add_argument('translationCSV')
+parser.add_argument('outputDir')
+
+args = parser.parse_args()
+
+src_template = args.srcTemplate
+filename_csv = args.translationCSV
+output_dir = args.outputDir
 
 pp = pprint.PrettyPrinter(indent=4)
-
-filename = 'EssenceAlphaStateTranslation.csv'
 
 
 # a wrapper around csv.reader
@@ -22,7 +34,7 @@ def unicode_csv_reader(csv_data, dialect=csv.excel, **kwargs):
 
 
 class Translations:
-	def __init__(self,input,languages):
+	def __init__(self,input,languages,src_xml):
 		self.input = input
 		self.languages = languages;
 		self.check_count = 0
@@ -30,7 +42,8 @@ class Translations:
 		self.alpha = None
 		self.state = None
 		for l in languages: 
-			self.maps[l] = {"method-name":"Essence Kernel"}
+			self.maps[l] = plistlib.readPlist(src_xml)
+			#{"method-name":"Essence Kernel"}
 
 	def add_alpha(self,row):
 		print "\n--- Alpha: %s / %s ---" % (row[1],row[2])
@@ -64,8 +77,7 @@ class Translations:
 		i = 0
 		for l in languages:
 			self.maps[l][description] = row[1+i]
-			i += 1
-		
+			i += 1		
 	
 	def add_check_item(self,row):
 		#print "%d: %s" % (self.check_count, row[1])
@@ -73,29 +85,43 @@ class Translations:
 
 		i = 0
 		for l in languages:
-			self.maps[l][description] = row[1+i]
+			if row[1+i]:
+				self.maps[l][description] = row[1+i]
 			i += 1
 
 		self.check_count += 1
 
 	
-	def output(self):
+	def output(self,dir):
 		for l in t.languages:
-			plistlib.writePlist(self.maps[l], "out/%s.xml" % l)
+			plistlib.writePlist(self.maps[l], "%s/locale/%s.xml" % (dir,l) )
 
-	
+
+
+###############   main part   ##################
+
+
+# XXX need to check the input values; specifically,
+# check that the src_template dir exists, and has needed files
+if src_template == output_dir:
+	raise Exception('output directory is the same as src')
+
+# XXX need to check if copied succesfully
+shutil.copytree( src_template, output_dir );
+
+# XXX posibly, need a command-line option as a switch for overwriting the output
 
 
 t = None
 
-with open(filename, 'rb') as CSV:
+with open(filename_csv, 'rb') as CSV:
 	input = unicode_csv_reader( CSV )
 	
 	# row 1
 	languages = input.next()
 	lang_count = len(languages)
 	languages = languages[1:lang_count]
-	t = Translations(input,languages)
+	t = Translations(input, languages, "%s/locale/en.xml" % src_template )
 	
 	pp.pprint( languages )
 	
@@ -118,6 +144,6 @@ with open(filename, 'rb') as CSV:
 		#	print ', '.join(row)
 
 
-t.output()
+t.output(output_dir)
 
 #pp.pprint( t.maps['ru'] )
