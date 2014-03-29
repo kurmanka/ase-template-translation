@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="1.0">
+<dict>
+    <key>method-name</key>
+    <string>Essence Kernel</string>
+    <key>legal-notices</key>
+    <string><![CDATA[Copyright © 2013 Ivar Jacobson International SA.  All rights reserved. This software is the property of Ivar Jacobson International SA and its licensors and is protected by copyright. 
+
+Portions of the Essence – Kernel and Language for Software Engineering Methods is provided under license by the following:
+Copyright © 2013, Data Access Technologies (Model Driven Solutions)
+Copyright © 2013, Florida Atlantic University
+Copyright © 2013, Fujitsu
+Copyright © 2013, Fujitsu Services
+Copyright © 2013, Ivar Jacobson International AB
+Copyright © 2013, KTH Royal Institute of Technology
+Copyright © 2013, Metamaxim Ltd.
+Copyright © 2013, PEM Systems
+Copyright © 2013, Stiftelsen SINTEF
+Copyright © 2013, University of Duisburg-Essen
+
+USE OF ESSENCE – KERNEL AND LANGUAGE FOR SOFTWARE ENGINEERING METHODS SPECIFICATION - TERMS, CONDITIONS & NOTICES
+
+Subject to all of the terms and conditions below, the owners of the copyright in this specification hereby grant you a fully-paid up, non-exclusive, nontransferable, perpetual, worldwide license (without the right to sublicense), to use this specification to create and distribute software and special purpose specifications that are based upon this specification, and to use, copy, and distribute this specification as provided under the Copyright Act; provided that: 
+(1) both the copyright notice identified above and this permission notice appear on any copies of this specification; 
+(2) the use of the specifications is for informational purposes and will not be copied or posted on any network computer or broadcast in any media and will not be otherwise resold or transferred for commercial purposes; and 
+(3) no modifications are made to this specification. 
+
+This limited permission automatically terminates without notice if you breach any of these terms or conditions. Upon termination, you will destroy immediately any copies of the specifications in your possession or control.]]></string>
+    <key>Customer-name</key>
+    <string>Customer</string>
+    <key>Stakeholders-name</key>
+    <string>Stakeholders</string>
+    <key>Stakeholders-description</key>
+    <string>Stakeholders: The people, groups, or organizations who affect or are affected by a software system. The stakeholders provide the opportunity, and are the source of the requirements for the software system. They are involved throughout the software engineering endeavor to support the team and ensure that an acceptable software system is produced.</string>
+    <key>Stakeholders-Recognized-name</key>
+    <string>Recognized</string>
+    <key>Stakeholders-Recognized-description</key>
+    <string>Stakeholders have been identified.</string>
+    <key>Stakeholders-Recognized-check1-description</key>
+    <string>All the different groups of stakeholders that are, or will be, affected by the development and operation of the software system are identified.</string>
+    <key>Stakeholders-Recognized-check2-description</key>
+    <string>There is agreement on the stakeholder groups to be represented. At a minimum, the stakeholders groups that fund, use, support, and maintain the system have been considered.</string>
+    <key>Stakeholders-Recognized-check3-description</key>
+    <string>The responsibilities of the stakeholder representatives have been defined.</string>
+    <key>Stakeholders-Represented-name</key>
+    <string>Represented</string>
+    <key>Stakeholders-Represented-description</key>
+    <string>The mechanisms for involving the stakeholders are agreed and the stakeholder representatives have been appointed.</string>
+    <key>Stakeholders-Represented-check1-description</key>
+    <string>The stakeholder representatives have agreed to take on their responsibilities.</string>
+    <key>Stakeholders-Represented-check2-description</key>
+    <string>The stakeholder representatives are authorized to carry out their responsibilities.</string>
+    <key>Stakeholders-Represented-check3-description</key>
+    <string>The collaboration approach among the stakeholder representatives has been agreed.</string>
+    <key>Stakeholders-Represented-check4-description</key>
+    <string>The stakeholder representatives support and respect the team's way of working.</string>
+    <key>Stakeholders-Involved-name</key>
+    <string>Involved</string>
+    <key>Stakeholders-Involved-description</key>
+    <string>The stakeholder representatives are actively involved in the work and fulfilling their responsibilities.</string>
+    <key>Stakeholders-Involved-check1-description</key>
+    <string>The stakeholder representatives assist the team in accordance with their responsibilities.</string>
+    <key>Stakeholders-Involved-check2-description</key>
+    <string>The stakeholder representatives provide feedback and take part in decision making in a timely manner.</string>
+    <key>Stakeholders-Involved-check3-description</key>
+    <string>The stakeholder representatives promptly communicate changes that are relevant for their stakeholder groups.</string>
+    <key>Stakeholders-In Agreement-name</key>
+    <string>In Agreement</string>
+    <key>Stakeholders-In Agreement-description</key>
+    <string>The stakeholder representatives are in agreement.</string>
+    <key>Stakeholders-In Agreement-check1-description</key>
+    <string>The stakeholder representatives have agreed upon their minimal expectations for the next deployment of the new system.</string>
+    <key>Stakeholders-In Agreement-check2-description</key>
+    <string>The stakeholder representatives are happy with their involvement in the work.</string>
+    <key>Stakeholders-In Agreement-check3-description</key>
+    <string>The stakeholder representatives agree that their input is valued by the team and treated with respect.</string>
+    <key>Stakeholders-In Agreement-check4-description</key>
+    <string>The team members agree that their input is valued by the stakeholder representatives and treated with respect.</string>
+    <key>Stakeholders-In Agreement-check5-description</key>
+    <string>The stakeholder representatives agree with how their different priorities and perspectives are being balanced to provide a clear direction for the team.</string>
+    <key>Stakeholders-Satisfied for Deployment-name</key>
+    <string>Satisfied for Deployment</string>
+    <key>Stakeholders-Satisfied for Deployment-description</key>
+    <string>The minimal expectations of the stakeholder representatives have been achieved.</string>
+    <key>Stakeholders-Satisfied for Deployment-check1-description</key>
+    <string>The stakeholder representatives provide feedback on the system from their stakeholder group perspective.</string>
+    <key>Stakeholders-Satisfied for Deployment-check2-description</key>
+    <string>The stakeholder representatives confirm that they agree that the system is ready for deployment.</string>
+    <key>Stakeholders-Satisfied in Use-name</key>
+    <string>Satisfied in Use</string>
+    <key>Stakeholders-Satisfied in Use-description</key>
+    <string>The system has met or exceeds the minimal stakeholder expectations.</string>
+    <key>Stakeholders-Satisfied in Use-check1-description</key>
+    <string>Stakeholders are using the new system and providing feedback on their experiences.</string>
+    <key>Stakeholders-Satisfied in Use-check2-description</key>
+    <string>The stakeholders confirm that the new system meets their expectations.</string>
+    <key>Opportunity-name</key>
+    <string>Opportunity</string>
+    <key>Opportunity-description</key>
+    <string>Opportunity: The set of circumstances that makes it appropriate to develop or change a software system. The opportunity articulates the reason for the creation of the new, or changed, software system. It represents the team’s shared understanding of the stakeholders’ needs, and helps shape the requirements for the new software system by providing justification for its development.</string>
+    <key>Opportunity-Identified-name</key>
+    <string>Identified</string>
+    <key>Opportunity-Identified-description</key>
+    <string>A commercial, social or business opportunity has been identified that could be addressed by a software-based solution.</string>
+    <key>Opportunity-Identified-check1-description</key>
+    <string>An idea for a way of improving current ways of working, increasing market share or applying a new or innovative software system has been identified.</string>
+    <key>Opportunity-Identified-check2-description</key>
+    <string>At least one of the stakeholders wishes to make an investment in better understanding the opportunity and the value associated with addressing it.</string>
+    <key>Opportunity-Identified-check3-description</key>
+    <string>The other stakeholders who share the opportunity have been identified.</string>
+    <key>Opportunity-Solution Needed-name</key>
+    <string>Solution Needed</string>
+    <key>Opportunity-Solution Needed-description</key>
+    <string>The need for a software-based solution has been confirmed.</string>
+    <key>Opportunity-Solution Needed-check1-description</key>
+    <string>The stakeholders in the opportunity and the proposed solution have been identified.</string>
+    <key>Opportunity-Solution Needed-check2-description</key>
+    <string>The stakeholders' needs that generate the opportunity have been established.</string>
+    <key>Opportunity-Solution Needed-check3-description</key>
+    <string>Any underlying problems and their root causes have been identified.</string>
+    <key>Opportunity-Solution Needed-check4-description</key>
+    <string>It has been confirmed that a software-based solution is needed.</string>
+    <key>Opportunity-Solution Needed-check5-description</key>
+    <string>At least one software-based solution has been proposed.</string>
+    <key>Opportunity-Value Established-name</key>
+    <string>Value Established</string>
+    <key>Opportunity-Value Established-description</key>
+    <string>The value of a successful solution has been established.</string>
+    <key>Opportunity-Value Established-check1-description</key>
+    <string>The value of addressing the opportunity has been quantified either in absolute terms or in returns or savings per time period (e.g. per annum).</string>
+    <key>Opportunity-Value Established-check2-description</key>
+    <string>The impact of the solution on the stakeholders is understood.</string>
+    <key>Opportunity-Value Established-check3-description</key>
+    <string>The value that the software system offers to the stakeholders that fund and use the software system is understood.</string>
+    <key>Opportunity-Value Established-check4-description</key>
+    <string>The success criteria by which the deployment of the software system is to be judged are clear.</string>
+    <key>Opportunity-Value Established-check5-description</key>
+    <string>The desired outcomes required of the solution are clear and quantified.</string>
+    <key>Opportunity-Viable-name</key>
+    <string>Viable</string>
+    <key>Opportunity-Viable-description</key>
+    <string>It is agreed that a solution can be produced quickly and cheaply enough to successfully address the opportunity.</string>
+    <key>Opportunity-Viable-check1-description</key>
+    <string>A solution has been outlined.</string>
+    <key>Opportunity-Viable-check2-description</key>
+    <string>The indications are that the solution can be developed and deployed within constraints.</string>
+    <key>Opportunity-Viable-check3-description</key>
+    <string>The risks associated with the solution are acceptable and manageable.</string>
+    <key>Opportunity-Viable-check4-description</key>
+    <string>The indicative (ball-park) costs of the solution are less than the anticipated value of the opportunity.</string>
+    <key>Opportunity-Viable-check5-description</key>
+    <string>The reasons for the development of a software-based solution are understood by all members of the team.</string>
+    <key>Opportunity-Viable-check6-description</key>
+    <string>It is clear that the pursuit of the opportunity is viable.</string>
+    <key>Opportunity-Addressed-name</key>
+    <string>Addressed</string>
+    <key>Opportunity-Addressed-description</key>
+    <string>A solution has been produced that demonstrably addresses the opportunity.</string>
+    <key>Opportunity-Addressed-check1-description</key>
+    <string>A usable system that demonstrably addresses the opportunity is available.</string>
+    <key>Opportunity-Addressed-check2-description</key>
+    <string>The stakeholders agree that the available solution is worth deploying.</string>
+    <key>Opportunity-Addressed-check3-description</key>
+    <string>The stakeholders are satisfied that the solution produced addresses the opportunity.</string>
+    <key>Opportunity-Benefit Accrued-name</key>
+    <string>Benefit Accrued</string>
+    <key>Opportunity-Benefit Accrued-description</key>
+    <string>The operational use or sale of the solution is creating tangible benefits.</string>
+    <key>Opportunity-Benefit Accrued-check1-description</key>
+    <string>The solution has started to accrue benefits for the stakeholders.</string>
+    <key>Opportunity-Benefit Accrued-check2-description</key>
+    <string>The return-on-investment profile is at least as good as anticipated.</string>
+    <key>Solution-name</key>
+    <string>Solution</string>
+    <key>Requirements-name</key>
+    <string>Requirements</string>
+    <key>Requirements-description</key>
+    <string>Requirements: What the software system must do to address the opportunity and satisfy the stakeholders. It is important to discover what is needed from the software system, share this understanding among the stakeholders and the team members, and use it to drive the development and testing of the new system.</string>
+    <key>Requirements-Conceived-name</key>
+    <string>Conceived</string>
+    <key>Requirements-Conceived-description</key>
+    <string>The need for a new system has been agreed.</string>
+    <key>Requirements-Conceived-check1-description</key>
+    <string>The initial set of stakeholders agrees that a system is to be produced.</string>
+    <key>Requirements-Conceived-check2-description</key>
+    <string>The stakeholders that will use the new system are identified.</string>
+    <key>Requirements-Conceived-check3-description</key>
+    <string>The stakeholders that will fund the initial work on the new system are identified.</string>
+    <key>Requirements-Conceived-check4-description</key>
+    <string>There is a clear opportunity for the new system to address.</string>
+    <key>Requirements-Bounded-name</key>
+    <string>Bounded</string>
+    <key>Requirements-Bounded-description</key>
+    <string>The purpose and theme of the new system are clear.</string>
+    <key>Requirements-Bounded-check1-description</key>
+    <string>The stakeholders involved in developing the new system are identified.</string>
+    <key>Requirements-Bounded-check2-description</key>
+    <string>The stakeholders agree on the purpose of the new system.</string>
+    <key>Requirements-Bounded-check3-description</key>
+    <string>It is clear what success is for the new system.</string>
+    <key>Requirements-Bounded-check4-description</key>
+    <string>The stakeholders have a shared understanding of the extent of the proposed solution.</string>
+    <key>Requirements-Bounded-check5-description</key>
+    <string>The way the requirements will be described is agreed upon.</string>
+    <key>Requirements-Bounded-check6-description</key>
+    <string>The mechanisms for managing the requirements are in place.</string>
+    <key>Requirements-Bounded-check7-description</key>
+    <string>The prioritization scheme is clear.</string>
+    <key>Requirements-Bounded-check8-description</key>
+    <string>Constraints are identified and considered.</string>
+    <key>Requirements-Bounded-check9-description</key>
+    <string>Assumptions are clearly stated.</string>
+    <key>Requirements-Coherent-name</key>
+    <string>Coherent</string>
+    <key>Requirements-Coherent-description</key>
+    <string>The requirements provide a coherent description of the essential characteristics of the new system.</string>
+    <key>Requirements-Coherent-check1-description</key>
+    <string>The requirements are captured and shared with the team and the stakeholders.</string>
+    <key>Requirements-Coherent-check2-description</key>
+    <string>The origin of the requirements is clear.</string>
+    <key>Requirements-Coherent-check3-description</key>
+    <string>The rationale behind the requirements is clear.</string>
+    <key>Requirements-Coherent-check4-description</key>
+    <string>Conflicting requirements are identified and attended to.</string>
+    <key>Requirements-Coherent-check5-description</key>
+    <string>The requirements communicate the essential characteristics of the system to be delivered.</string>
+    <key>Requirements-Coherent-check6-description</key>
+    <string>The most important usage scenarios for the system can be explained.</string>
+    <key>Requirements-Coherent-check7-description</key>
+    <string>The priority of the requirements is clear.</string>
+    <key>Requirements-Coherent-check8-description</key>
+    <string>The impact of implementing the requirements is understood.</string>
+    <key>Requirements-Coherent-check9-description</key>
+    <string>The team understands what has to be delivered and agrees to deliver it.</string>
+    <key>Requirements-Acceptable-name</key>
+    <string>Acceptable</string>
+    <key>Requirements-Acceptable-description</key>
+    <string>The requirements describe a system that is acceptable to the stakeholders.</string>
+    <key>Requirements-Acceptable-check1-description</key>
+    <string>The stakeholders accept that the requirements describe an acceptable solution.</string>
+    <key>Requirements-Acceptable-check2-description</key>
+    <string>The rate of change to the agreed requirements is relatively low and under control.</string>
+    <key>Requirements-Acceptable-check3-description</key>
+    <string>The value provided by implementing the requirements is clear.</string>
+    <key>Requirements-Acceptable-check4-description</key>
+    <string>The parts of the opportunity satisfied by the requirements are clear.</string>
+    <key>Requirements-Addressed-name</key>
+    <string>Addressed</string>
+    <key>Requirements-Addressed-description</key>
+    <string>Enough of the requirements have been addressed to satisfy the need for a new system in a way that is acceptable to the stakeholders.</string>
+    <key>Requirements-Addressed-check1-description</key>
+    <string>Enough of the requirements are addressed for the resulting system to be acceptable to the stakeholders.</string>
+    <key>Requirements-Addressed-check2-description</key>
+    <string>The stakeholders accept the requirements as accurately reflecting what the system does and does not do.</string>
+    <key>Requirements-Addressed-check3-description</key>
+    <string>The set of requirement items implemented provide clear value to the stakeholders.</string>
+    <key>Requirements-Addressed-check4-description</key>
+    <string>The system implementing the requirements is accepted by the stakeholders as worth making operational.</string>
+    <key>Requirements-Fulfilled-name</key>
+    <string>Fulfilled</string>
+    <key>Requirements-Fulfilled-description</key>
+    <string>The requirements that have been addressed fully satisfy the need for a new system.</string>
+    <key>Requirements-Fulfilled-check1-description</key>
+    <string>The stakeholders accept the requirements as accurately capturing what they require to fully satisfy the need for a new system.</string>
+    <key>Requirements-Fulfilled-check2-description</key>
+    <string>There are no outstanding requirement items preventing the system from being accepted as fully satisfying the requirements.</string>
+    <key>Requirements-Fulfilled-check3-description</key>
+    <string>The system is accepted by the stakeholders as fully satisfying the requirements.</string>
+    <key>Software System-name</key>
+    <string>Software System</string>
+    <key>Software System-description</key>
+    <string>Software System: A system made up of software, hardware, and data that provides its primary value by the execution of the software. A software system can be part of a larger software, hardware, business or social solution.</string>
+    <key>Software System-Architecture Selected-name</key>
+    <string>Architecture Selected</string>
+    <key>Software System-Architecture Selected-description</key>
+    <string>An architecture has been selected that addresses the key technical risks and any applicable organizational constraints.</string>
+    <key>Software System-Architecture Selected-check1-description</key>
+    <string>The criteria to be used when selecting the architecture have been agreed on.</string>
+    <key>Software System-Architecture Selected-check2-description</key>
+    <string>Hardware platforms have been identified.</string>
+    <key>Software System-Architecture Selected-check3-description</key>
+    <string>Programming languages and technologies to be used have been selected.</string>
+    <key>Software System-Architecture Selected-check4-description</key>
+    <string>System boundary is known.</string>
+    <key>Software System-Architecture Selected-check5-description</key>
+    <string>Significant decisions about the organization of the system have been made.</string>
+    <key>Software System-Architecture Selected-check6-description</key>
+    <string>Buy, build and reuse decisions have been made.</string>
+    <key>Software System-Demonstrable-name</key>
+    <string>Demonstrable</string>
+    <key>Software System-Demonstrable-description</key>
+    <string>An executable version of the system is available that demonstrates the architecture is fit for purpose and supports functional and non-functional testing.</string>
+    <key>Software System-Demonstrable-check1-description</key>
+    <string>Key architectural characteristics have been demonstrated.</string>
+    <key>Software System-Demonstrable-check2-description</key>
+    <string>The system can be exercised and its performance can be measured.</string>
+    <key>Software System-Demonstrable-check3-description</key>
+    <string>Critical hardware configurations have been demonstrated.</string>
+    <key>Software System-Demonstrable-check4-description</key>
+    <string>Critical interfaces have been demonstrated.</string>
+    <key>Software System-Demonstrable-check5-description</key>
+    <string>The integration with other existing systems has been demonstrated.</string>
+    <key>Software System-Demonstrable-check6-description</key>
+    <string>The relevant stakeholders agree that the demonstrated architecture is appropriate.</string>
+    <key>Software System-Usable-name</key>
+    <string>Usable</string>
+    <key>Software System-Usable-description</key>
+    <string>The system is usable and demonstrates all of the quality characteristics of an operational system.</string>
+    <key>Software System-Usable-check1-description</key>
+    <string>The system can be operated by stakeholders who use it.</string>
+    <key>Software System-Usable-check2-description</key>
+    <string>The functionality provided by the system has been tested.</string>
+    <key>Software System-Usable-check3-description</key>
+    <string>The performance of the system is acceptable to the stakeholders.</string>
+    <key>Software System-Usable-check4-description</key>
+    <string>Defect levels are acceptable to the stakeholders.</string>
+    <key>Software System-Usable-check5-description</key>
+    <string>The system is fully documented.</string>
+    <key>Software System-Usable-check6-description</key>
+    <string>Release content is known.</string>
+    <key>Software System-Usable-check7-description</key>
+    <string>The added value provided by the system is clear.</string>
+    <key>Software System-Ready-name</key>
+    <string>Ready</string>
+    <key>Software System-Ready-description</key>
+    <string>The system (as a whole) has been accepted for deployment in a live environment.</string>
+    <key>Software System-Ready-check1-description</key>
+    <string>Installation and other user documentation are available.</string>
+    <key>Software System-Ready-check2-description</key>
+    <string>The stakeholder representatives accept the system as fit-for-purpose.</string>
+    <key>Software System-Ready-check3-description</key>
+    <string>The stakeholder representatives want to make the system operational.</string>
+    <key>Software System-Ready-check4-description</key>
+    <string>Operational support is in place.</string>
+    <key>Software System-Operational-name</key>
+    <string>Operational</string>
+    <key>Software System-Operational-description</key>
+    <string>The system is in use in an operational environment.</string>
+    <key>Software System-Operational-check1-description</key>
+    <string>The system has been made available to the stakeholders intended to use it.</string>
+    <key>Software System-Operational-check2-description</key>
+    <string>At least one example of the system is fully operational.</string>
+    <key>Software System-Operational-check3-description</key>
+    <string>The system is fully supported to the agreed service levels.</string>
+    <key>Software System-Retired-name</key>
+    <string>Retired</string>
+    <key>Software System-Retired-description</key>
+    <string>The system is no longer supported.</string>
+    <key>Software System-Retired-check1-description</key>
+    <string>The system has been replaced or discontinued.</string>
+    <key>Software System-Retired-check2-description</key>
+    <string>The system is no longer supported.</string>
+    <key>Software System-Retired-check3-description</key>
+    <string>There are no 'official' stakeholders who still use the system.</string>
+    <key>Software System-Retired-check4-description</key>
+    <string>Updates to the system will no longer be produced.</string>
+    <key>Endeavor-name</key>
+    <string>Endeavor</string>
+    <key>Work-name</key>
+    <string>Work</string>
+    <key>Work-description</key>
+    <string>Work: Activity involving mental or physical effort done in order to achieve a result. In the context of software engineering, work is everything that the team does to meet the goals of producing a software system matching the requirements and addressing the opportunity presented by the stakeholders. The work is guided by the practices that make up the team’s way-of-working.</string>
+    <key>Work-Initiated-name</key>
+    <string>Initiated</string>
+    <key>Work-Initiated-description</key>
+    <string>The work has been requested.</string>
+    <key>Work-Initiated-check1-description</key>
+    <string>The result required of the work being initiated is clear.</string>
+    <key>Work-Initiated-check2-description</key>
+    <string>Any constraints on the work's performance are clearly identified.</string>
+    <key>Work-Initiated-check3-description</key>
+    <string>The stakeholders that will fund the work are known.</string>
+    <key>Work-Initiated-check4-description</key>
+    <string>The initiator of the work is clearly identified.</string>
+    <key>Work-Initiated-check5-description</key>
+    <string>The stakeholders that will accept the results are known.</string>
+    <key>Work-Initiated-check6-description</key>
+    <string>The source of funding is clear.</string>
+    <key>Work-Initiated-check7-description</key>
+    <string>The priority of the work is clear.</string>
+    <key>Work-Prepared-name</key>
+    <string>Prepared</string>
+    <key>Work-Prepared-description</key>
+    <string>All pre-conditions for starting the work have been met.</string>
+    <key>Work-Prepared-check1-description</key>
+    <string>Commitment is made.</string>
+    <key>Work-Prepared-check2-description</key>
+    <string>Cost and effort of the work are estimated.</string>
+    <key>Work-Prepared-check3-description</key>
+    <string>Resource availability is understood.</string>
+    <key>Work-Prepared-check4-description</key>
+    <string>Governance policies and procedures are clear.</string>
+    <key>Work-Prepared-check5-description</key>
+    <string>Risk exposure is understood.</string>
+    <key>Work-Prepared-check6-description</key>
+    <string>Acceptance criteria are defined and agreed with client.</string>
+    <key>Work-Prepared-check7-description</key>
+    <string>The work is broken down sufficiently for productive work to start.</string>
+    <key>Work-Prepared-check8-description</key>
+    <string>Work items have been identified and prioritized by the team and stakeholders.</string>
+    <key>Work-Prepared-check9-description</key>
+    <string>A credible plan is in place.</string>
+    <key>Work-Prepared-check10-description</key>
+    <string>Funding to start the work is in place.</string>
+    <key>Work-Prepared-check11-description</key>
+    <string>The team is ready to start the work.</string>
+    <key>Work-Prepared-check12-description</key>
+    <string>Integration and delivery points are defined.</string>
+    <key>Work-Started-name</key>
+    <string>Started</string>
+    <key>Work-Started-description</key>
+    <string>The work is proceeding.</string>
+    <key>Work-Started-check1-description</key>
+    <string>Development work has been started.</string>
+    <key>Work-Started-check2-description</key>
+    <string>Work progress is monitored.</string>
+    <key>Work-Started-check3-description</key>
+    <string>The work is being broken down into actionable work items with clear definitions of done.</string>
+    <key>Work-Started-check4-description</key>
+    <string>Team members are accepting and progressing work items.</string>
+    <key>Work-Under Control-name</key>
+    <string>Under Control</string>
+    <key>Work-Under Control-description</key>
+    <string>The work is going well, risks are under control, and productivity levels are sufficient to achieve a satisfactory result.</string>
+    <key>Work-Under Control-check1-description</key>
+    <string>Work items are being completed.</string>
+    <key>Work-Under Control-check2-description</key>
+    <string>Unplanned work is under control.</string>
+    <key>Work-Under Control-check3-description</key>
+    <string>Risks are under control as the impact if they occur and the likelihood of them occurring have been reduced to acceptable levels.</string>
+    <key>Work-Under Control-check4-description</key>
+    <string>Estimates are revised to reflect the team's performance.</string>
+    <key>Work-Under Control-check5-description</key>
+    <string>Measures are available to show progress and velocity.</string>
+    <key>Work-Under Control-check6-description</key>
+    <string>Re-work is under control.</string>
+    <key>Work-Under Control-check7-description</key>
+    <string>Work items are consistently completed on time and within their estimates.</string>
+    <key>Work-Concluded-name</key>
+    <string>Concluded</string>
+    <key>Work-Concluded-description</key>
+    <string>The work to produce the results has been concluded.</string>
+    <key>Work-Concluded-check1-description</key>
+    <string>All outstanding work items are administrative housekeeping or related to preparing the next piece of work.</string>
+    <key>Work-Concluded-check2-description</key>
+    <string>Work results are being achieved.</string>
+    <key>Work-Concluded-check3-description</key>
+    <string>The client has accepted the resulting software system.</string>
+    <key>Work-Closed-name</key>
+    <string>Closed</string>
+    <key>Work-Closed-description</key>
+    <string>All remaining housekeeping tasks have been completed and the work has been officially closed.</string>
+    <key>Work-Closed-check1-description</key>
+    <string>Lessons learned have been itemized, recorded and discussed.</string>
+    <key>Work-Closed-check2-description</key>
+    <string>Metrics have been made available.</string>
+    <key>Work-Closed-check3-description</key>
+    <string>Everything has been archived.</string>
+    <key>Work-Closed-check4-description</key>
+    <string>The budget has been reconciled and closed.</string>
+    <key>Work-Closed-check5-description</key>
+    <string>The team has been released.</string>
+    <key>Work-Closed-check6-description</key>
+    <string>There are no outstanding, uncompleted work items.</string>
+    <key>Team-name</key>
+    <string>Team</string>
+    <key>Team-description</key>
+    <string>Team: A group of people actively engaged in the development, maintenance, delivery or support of a specific software system. One or more teams plan and perform the work needed to create, update and/or change the software system.</string>
+    <key>Team-Seeded-name</key>
+    <string>Seeded</string>
+    <key>Team-Seeded-description</key>
+    <string>The team's mission is clear and the know-how needed to grow the team is in place.</string>
+    <key>Team-Seeded-check1-description</key>
+    <string>The team mission has been defined in terms of the opportunities and outcomes.</string>
+    <key>Team-Seeded-check2-description</key>
+    <string>Constraints on the team's operation are known.</string>
+    <key>Team-Seeded-check3-description</key>
+    <string>Mechanisms to grow the team are in place.</string>
+    <key>Team-Seeded-check4-description</key>
+    <string>The composition of the team is defined.</string>
+    <key>Team-Seeded-check5-description</key>
+    <string>Any constraints on where and how the work is carried out are defined.</string>
+    <key>Team-Seeded-check6-description</key>
+    <string>The team's responsibilities are outlined.</string>
+    <key>Team-Seeded-check7-description</key>
+    <string>The level of team commitment is clear.</string>
+    <key>Team-Seeded-check8-description</key>
+    <string>Required competencies are identified.</string>
+    <key>Team-Seeded-check9-description</key>
+    <string>The team size is determined.</string>
+    <key>Team-Seeded-check10-description</key>
+    <string>Governance rules are defined.</string>
+    <key>Team-Seeded-check11-description</key>
+    <string>Leadership model is selected.</string>
+    <key>Team-Formed-name</key>
+    <string>Formed</string>
+    <key>Team-Formed-description</key>
+    <string>The team has been populated with enough committed people to start the mission.</string>
+    <key>Team-Formed-check1-description</key>
+    <string>Individual responsibilities are understood.</string>
+    <key>Team-Formed-check2-description</key>
+    <string>Enough team members have been recruited to enable the work to progress.</string>
+    <key>Team-Formed-check3-description</key>
+    <string>Every team member understands how the team is organized.</string>
+    <key>Team-Formed-check4-description</key>
+    <string>All team members understand how to perform their work.</string>
+    <key>Team-Formed-check5-description</key>
+    <string>The team members have met (perhaps virtually) and are beginning to get to know each other</string>
+    <key>Team-Formed-check6-description</key>
+    <string>The team members understand their responsibilities and how they align with their competencies.</string>
+    <key>Team-Formed-check7-description</key>
+    <string>Team members are accepting work.</string>
+    <key>Team-Formed-check8-description</key>
+    <string>Any external collaborators (organizations, teams and individuals) are identified.</string>
+    <key>Team-Formed-check9-description</key>
+    <string>Team communication mechanisms have been defined.</string>
+    <key>Team-Formed-check10-description</key>
+    <string>Each team member commits to working on the team as defined.</string>
+    <key>Team-Collaborating-name</key>
+    <string>Collaborating</string>
+    <key>Team-Collaborating-description</key>
+    <string>The team members are working together as one unit.</string>
+    <key>Team-Collaborating-check1-description</key>
+    <string>The team is working as one cohesive unit.</string>
+    <key>Team-Collaborating-check2-description</key>
+    <string>Communication within the team is open and honest.</string>
+    <key>Team-Collaborating-check3-description</key>
+    <string>The team is focused on achieving the team mission.</string>
+    <key>Team-Collaborating-check4-description</key>
+    <string>The team members put the success of the team as a whole ahead of their own personal objectives.</string>
+    <key>Team-Collaborating-check5-description</key>
+    <string>The team members know each other.</string>
+    <key>Team-Performing-name</key>
+    <string>Performing</string>
+    <key>Team-Performing-description</key>
+    <string>The team is working effectively and efficiently.</string>
+    <key>Team-Performing-check1-description</key>
+    <string>The team consistently meets its commitments.</string>
+    <key>Team-Performing-check2-description</key>
+    <string>The team continuously adapts to the changing context.</string>
+    <key>Team-Performing-check3-description</key>
+    <string>The team identifies and addresses problems without outside help.</string>
+    <key>Team-Performing-check4-description</key>
+    <string>The team is consistently producing high quality output.</string>
+    <key>Team-Performing-check5-description</key>
+    <string>The team is considered a high performance team.</string>
+    <key>Team-Performing-check6-description</key>
+    <string>Effective progress is being achieved with minimal avoidable backtracking and reworking.</string>
+    <key>Team-Performing-check7-description</key>
+    <string>Wasted work, and the potential for wasted work are continuously eliminated.</string>
+    <key>Team-Adjourned-name</key>
+    <string>Adjourned</string>
+    <key>Team-Adjourned-description</key>
+    <string>The team is no longer accountable for carrying out its mission.</string>
+    <key>Team-Adjourned-check1-description</key>
+    <string>The team responsibilities have been handed over or fulfilled.</string>
+    <key>Team-Adjourned-check2-description</key>
+    <string>The team members are available for assignment to other teams.</string>
+    <key>Team-Adjourned-check3-description</key>
+    <string>No further effort is being put in by the team to complete the mission.</string>
+    <key>Way of Working-name</key>
+    <string>Way of Working</string>
+    <key>Way of Working-description</key>
+    <string>Way of Working: The tailored set of practices and tools used by a team to guide and support their work. The team evolves their way of working alongside their understanding of their mission and their working environment. As their work proceeds they continually reflect on their way of working and adapt it to their current context, if necessary.</string>
+    <key>Way of Working-Principles Established-name</key>
+    <string>Principles Established</string>
+    <key>Way of Working-Principles Established-description</key>
+    <string>The principles, and constraints, that shape the way-of-working are established.</string>
+    <key>Way of Working-Principles Established-check1-description</key>
+    <string>Principles and constraints are committed to by the team.</string>
+    <key>Way of Working-Principles Established-check2-description</key>
+    <string>Principles and constraints are agreed to by the stakeholders.</string>
+    <key>Way of Working-Principles Established-check3-description</key>
+    <string>The practice needs of the work and its stakeholders are agreed.</string>
+    <key>Way of Working-Principles Established-check4-description</key>
+    <string>The tool needs of the work and its stakeholders are agreed.</string>
+    <key>Way of Working-Principles Established-check5-description</key>
+    <string>A recommendation for the approach to be taken is available.</string>
+    <key>Way of Working-Principles Established-check6-description</key>
+    <string>The context within which the team will operate is understood.</string>
+    <key>Way of Working-Principles Established-check7-description</key>
+    <string>The constraints that apply to the selection and use of practices and tools are known.</string>
+    <key>Way of Working-Principles Established-check8-description</key>
+    <string>The constraints that govern the selection and acquisition of the team's practices and tools are known.</string>
+    <key>Way of Working-Foundation Established-name</key>
+    <string>Foundation Established</string>
+    <key>Way of Working-Foundation Established-description</key>
+    <string>The key practices, and tools, that form the foundation of the way of working are selected and ready for use.</string>
+    <key>Way of Working-Foundation Established-check1-description</key>
+    <string>The key practices and tools that form the foundation of the way-of-working are selected.</string>
+    <key>Way of Working-Foundation Established-check2-description</key>
+    <string>Enough practices for work to start are agreed to by the team.</string>
+    <key>Way of Working-Foundation Established-check3-description</key>
+    <string>All non-negotiable practices and tools have been identified.</string>
+    <key>Way of Working-Foundation Established-check4-description</key>
+    <string>The gaps that exist between the practices and tools that are needed and the practices and tools that are available have been analyzed and understood.</string>
+    <key>Way of Working-Foundation Established-check5-description</key>
+    <string>The capability gaps that exist between what is needed to execute the desired way of working and the capability levels of the team have been analyzed and understood.</string>
+    <key>Way of Working-Foundation Established-check6-description</key>
+    <string>The selected practices and tools have been integrated to form a usable way-of-working.</string>
+    <key>Way of Working-In Use-name</key>
+    <string>In Use</string>
+    <key>Way of Working-In Use-description</key>
+    <string>Some members of the team are using, and adapting, the way-of-working.</string>
+    <key>Way of Working-In Use-check1-description</key>
+    <string>The practices and tools are being used to do real work.</string>
+    <key>Way of Working-In Use-check2-description</key>
+    <string>The use of the practices and tools selected is regularly inspected.</string>
+    <key>Way of Working-In Use-check3-description</key>
+    <string>The practices and tools are being adapted to the team's context.</string>
+    <key>Way of Working-In Use-check4-description</key>
+    <string>The use of the practices and tools is supported by the team.</string>
+    <key>Way of Working-In Use-check5-description</key>
+    <string>Procedures are in place to handle feedback on the team's way of working.</string>
+    <key>Way of Working-In Use-check6-description</key>
+    <string>The practices and tools support team working and collaboration.</string>
+    <key>Way of Working-In Place-name</key>
+    <string>In Place</string>
+    <key>Way of Working-In Place-description</key>
+    <string>All team members are using the way of working to accomplish their work.</string>
+    <key>Way of Working-In Place-check1-description</key>
+    <string>The practices and tools are being used by the whole team to perform their work.</string>
+    <key>Way of Working-In Place-check2-description</key>
+    <string>All team members have access to the practices and tools required to do their work.</string>
+    <key>Way of Working-In Place-check3-description</key>
+    <string>The whole team is involved in the inspection and adaptation of the way-of-working.</string>
+    <key>Way of Working-Working well-name</key>
+    <string>Working well</string>
+    <key>Way of Working-Working well-description</key>
+    <string>The team's way of working is working well for the team.</string>
+    <key>Way of Working-Working well-check1-description</key>
+    <string>Team members are making progress as planned by using and adapting the way-of-working to suit their current context.</string>
+    <key>Way of Working-Working well-check2-description</key>
+    <string>The team naturally applies the practices without thinking about them</string>
+    <key>Way of Working-Working well-check3-description</key>
+    <string>The tools naturally support the way that the team works.</string>
+    <key>Way of Working-Working well-check4-description</key>
+    <string>The team continually tunes their use of the practices and tools.</string>
+    <key>Way of Working-Retired-name</key>
+    <string>Retired</string>
+    <key>Way of Working-Retired-description</key>
+    <string>The way of working is no longer in use by the team.</string>
+    <key>Way of Working-Retired-check1-description</key>
+    <string>The team's way of working is no longer being used.</string>
+    <key>Way of Working-Retired-check2-description</key>
+    <string>Lessons learned are shared for future use.</string>
+</dict>
+</plist>
