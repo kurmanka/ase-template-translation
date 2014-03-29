@@ -3,7 +3,7 @@ ase-template-russian
 
 This is a translation-building kit for the StateExplorer app templates. 
 It requires a specially-structured CVS file, and builds an ".aset" file,
-that you can install into the (StateExplorer app)[http://www.ivarjacobson.com/Alpha_State_Explorer_App/].
+that you can install into the [StateExplorer app](http://www.ivarjacobson.com/Alpha_State_Explorer_App/).
 
 
 
@@ -11,12 +11,12 @@ that you can install into the (StateExplorer app)[http://www.ivarjacobson.com/Al
 Directory structure
 ===================
 
-src/
-  Template/
-    Essential lifecycle/ —— a State Board template from the App
-      locale/
-      resources/
-      stateboard.json
+ - src/
+    - Template/
+       - Essential lifecycle/ —— a State Board template from the App
+          - locale/
+          - resources/
+          - stateboard.json
 
 
 build-translation.py (not working yet)
