@@ -5,7 +5,7 @@ import pprint
 import plistlib
 import argparse
 import shutil
-
+import json
 
 parser = argparse.ArgumentParser(description='Build translated Alpha State Explorer template.')
 parser.add_argument('srcTemplate')
@@ -92,11 +92,25 @@ class Translations:
 		self.check_count += 1
 
 	
-	def output(self,dir):
+	def output(self,dir,name):
 		for l in t.languages:
 			if not l == 'en':
 				plistlib.writePlist(self.maps[l], "%s/locale/%s.xml" % (dir,l) )
-
+		
+		# read stateboard.json
+		stateboard_json_file = open( "%s/stateboard.json" % dir, "rb" )
+		stateboard_cfg = json.load( stateboard_json_file )
+		stateboard_json_file.close()
+		
+		print "original template name: %s" % stateboard_cfg['name']
+		
+		stateboard_cfg['name'] = name
+		
+		# write stateboard.json
+		stateboard_json_file = open( "%s/stateboard.json" % dir, "wb" )
+		json.dump( stateboard_cfg, stateboard_json_file, separators=(',', ':') )
+		stateboard_json_file.close()
+		
 
 
 ###############   main part   ##################
@@ -123,12 +137,20 @@ with open(filename_csv, 'rb') as CSV:
 	lang_count = len(languages)
 	languages = languages[1:lang_count]
 	t = Translations(input, languages, "%s/locale/en.xml" % src_template )
+
+	template_names = input.next()[1:lang_count]
+	template_name_main = template_names[0]
+
+	# 
+	print "Stateboard Template: %s" % template_name_main
+	pp.pprint( template_names )
 	
+	print "Languages:"
 	pp.pprint( languages )
 	
-	# row 2
-	sources = input.next()
 	# row 3
+	sources = input.next()
+	# row 4
 	input.next()
 	
 	# further rows
@@ -145,6 +167,6 @@ with open(filename_csv, 'rb') as CSV:
 		#	print ', '.join(row)
 
 
-t.output(output_dir)
+t.output(output_dir, template_name_main)
 
 #pp.pprint( t.maps['ru'] )
