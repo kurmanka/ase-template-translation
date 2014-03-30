@@ -93,6 +93,7 @@ class Translations:
 
 	
 	def output(self,dir,name):
+		# write locale/*.xml
 		for l in t.languages:
 			if not l == 'en':
 				plistlib.writePlist(self.maps[l], "%s/locale/%s.xml" % (dir,l) )
@@ -102,9 +103,10 @@ class Translations:
 		stateboard_cfg = json.load( stateboard_json_file )
 		stateboard_json_file.close()
 		
-		print "original template name: %s" % stateboard_cfg['name']
+		#print "original template name: %s" % stateboard_cfg['name']
 		
 		stateboard_cfg['name'] = name
+		print "new template name: %s" % stateboard_cfg['name']
 		
 		# write stateboard.json
 		stateboard_json_file = open( "%s/stateboard.json" % dir, "wb" )
