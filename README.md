@@ -1,4 +1,4 @@
-ase-template-russian
+ASE template translation tools
 ====================
 
 This is a translation-building kit for the StateExplorer app templates. 
